@@ -1,0 +1,47 @@
+- icon: medicina-interna.png
+  title: Medicina interna
+  description:
+
+- icon: cirugia.png
+  title: Cirugía
+  description:
+
+- icon: anestesia.png
+  title: Anestesia
+  description:
+
+- icon: laboratorio.png
+  title: Laboratorio
+  description:
+
+- icon: radiodiagnostico.png
+  title: Radiodiagnóstico
+  description:
+
+- icon: ecografia.png
+  title: Ecografía
+  description:
+
+- icon: electrocardiograma.png
+  title: Electrocardiograma
+  description:
+
+- icon: odontologia.png
+  title: Odontolología
+  description:
+
+- icon: reproduccion.png
+  title: Reproducción
+  description:
+
+- icon: homeopatia.png
+  title: Homeopatía
+  description:
+
+- icon: peluqueria-estetica.png
+  title: Peluquería
+  description:
+
+- icon: tienda-especializada.png
+  title: Tienda especializada
+  description:

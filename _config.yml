@@ -1,0 +1,57 @@
+# Site settings
+title: Clinica Medea | Veterinario en Mérida
+description: "Clinica veterinaria en Mérida, cirugía, ecografía veterinaria, radiografía veterinaria. Tu veterinario en Mérida."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the name of your domain
+logo_url: /img/logo-desktop.png
+
+# Hero
+hero: 
+    hero_img: hero.png
+    hero_title: Clinica Medea
+    hero_description: Respetar a los animales es una obligación. Amarlos es un privilegio.
+
+# Contact form
+api_token: # Enter API token here
+
+# Contact info
+contact:
+    phone: 932 50 540
+    emergency: 931 53 234
+    email: contact@yoursite.com
+    address: Av. Constitución, 15D <br> 06800 Mérida, Badajoz
+
+# Opening hours
+monday_friday: 9:00 – 18:00
+saturday: 10:00 – 17:00
+sunday: 10:00 – 15:00
+
+# Testimonials
+testimonials:
+    testimonials_img: parallax.jpg
+
+# Map
+map:
+    zoom: 17
+    address: Av. Constitución, 15D, Viña del mar, 06800 Mérida, Badajoz
+    address_details: svg/min/logo.svg
+
+# Footer
+copyright: © 2020 Clinica Medea - Todos los derechos reservados
+
+# Build settings
+markdown: kramdown
+
+exclude: [
+    package.json,
+    Gruntfile.js,
+    node_modules,
+    .sass-cache,
+    Gemfile,
+    Gemfile.lock,
+    .gitignore
+]
+
+# Theme Settings
+analytics: 
+google_verification:
