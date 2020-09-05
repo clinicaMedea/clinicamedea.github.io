@@ -15,23 +15,10 @@ layout: default
 
     <div class="container-fluid">
         
-        <div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8 form">
-            <h3><svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>Contacta con nosotros</h3>
-            <form action="https://getsimpleform.com/messages?form_api_token={{ site.api_token }}" method="post">
-                <div class="form-field">
-                    <input name="name" type="text" placeholder="Nombre" required>
-                </div>
-                <div class="form-field">
-                    <input name="phone" type="tel" placeholder="Teléfono" required>
-                </div>
-                <div class="form-field">
-                    <input name="email" type="email" placeholder="Email" required>
-                </div>
-                <div class="form-field">
-                    <textarea name="comments" placeholder="Mensaje" required></textarea>
-                </div>
-                <input type="submit" class="btn btn-default" value="Enviar">
-            </form>
+        <div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8 form" style="text-align: center;padding-bottom:120px;padding-top:120px">
+            <h3><strong>ATENCIÓN</strong></h3>
+            <h4 style="margin-bottom: 40px;">favor, lea atentamente el <strong>DE ACTUACIÓN EXCEPCIONAL POR EL COVID-19:</strong> </h4>
+            <a href="{{ site.baseurl }}/img/coronavirus.pdf" target="_blank" style="background-color: #369b9f; color: white;padding: 10px;font-weight: bold;">VER EL PROTOCOLO</a>
         </div>
 
     </div>
@@ -44,37 +31,29 @@ layout: default
         <svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>
         <h3>Contacto</h3>
         <ul>
-            {% if site.contact.phone %}<li><strong>Teléfono:</strong> {{ site.contact.phone }}</li>{% endif %}
+            {% if site.contact.phone %}<li><strong>Teléfono:</strong> <a href="tel:{{ site.contact.phone }}" style="color: white;"> {{ site.contact.phone }}</a></li>{% endif %}
             {% if site.contact.email %}<li><strong>Email:</strong> {{ site.contact.email }}</li>{% endif %}
         </ul>
     </div>
-    <div class="col-sm-4">
+    <div class="col-sm-4" id="schedule">
         <svg class="icon icon-clock-o"><use xlink:href="#icon-clock-o"></use></svg>
         <h3>Horario</h3>
-        <ul>
-            <li>Hemos decidido por seguridad reducir nuestro horario.</li>
-            <li>Será de <strong class="large strong">Lunes a Viernes de 10:00 a 14:00</strong>.</li>
-        </ul>
-        <!--
-        <table>
+        <P>Hemos decidido por seguridad reducir nuestro horario.</P>
+        <table style="margin-bottom: 40px;">
             <tbody>
-                
+                <tr><td colspan="2" style="text-align: center;"><strong>HORARIO DE CONSULTA</strong></td></tr>
                 <tr>
                     <td>Lunes - Viernes</td>
-                    <td>{{ site.monday_friday }}</td>
+                    <td><strong>10:00 - 17:00</strong></td>
                 </tr>
+                <tr><td colspan="2" style="text-align: center;"><strong>HORARIO DE QUIRÓFANO</strong></td></tr>
                 <tr>
-                    <td>Sábado</td>
-                    <td>{{ site.saturday }}</td>
+                    <td>Lunes - Viernes</td>
+                    <td><strong>08:00 - 10:00</strong></td>
                 </tr>
-                <tr>
-                    <td>Domingo</td>
-                    <td>{{ site.sunday }}</td>
-                </tr>
-            
             </tbody>
         </table>
-        -->
+        <a href="{{ site.baseurl }}/img/coronavirus.pdf" target="_blank" style="background-color: white; color: #369b9f;padding: 10px;font-weight: bold;">VER EL PROTOCOLO</a>
     </div>
     <div class="col-sm-4">
         <svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
@@ -92,6 +71,7 @@ layout: default
         <h2 class="section-title">Sobre nosotros</h2>
 
         <div class="row">
+            <div class="col-sm-12">
             <p>El 1 de Abril de 1998 la CLINICA MEDEA abrió sus puertas.</p>
             <p>Hoy veintidós años después, con algunas canas y dos hijas preciosas, no hemos perdido la ilusión que nos llevó a empezar nuestra andadura en la CLINICA MEDEA.</p>
             <p>Tenemos la enorme suerte de dedicar nuestras vidas a nuestra pasión, la medicina y los animales, intentando cada día ser mejores profesionales y personas.</p>
@@ -103,7 +83,7 @@ layout: default
             <br>
             Nos vemos en MEDEA!!!!!!<br>
             Charo.</p>
-                
+        </div>
         </div>
     </div>
 </div>
