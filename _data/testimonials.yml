@@ -1,11 +1,34 @@
-- name: Jeff Winger
-  description: I teach law at Greendale, so believe me, I don't know much about law.
-  title: Law Professor - Greendale
+- name: Miguel Ángel Vázquez Lamela
+  description: Profesionales y agradables. Recomendado.
+  picture: miguel-angel-vazquez.png
+  title: 
 
-- name: Jeff Winger
-  description: Let's do what people do. Let's get a house we can't afford and a dog that makes us angry.
-  title: Law Professor - Greendale
+- name: Alvaro García
+  description: Las mejores manos en las que se le puede dejar.
+  picture: alvaro-garcia.png
+  title: 
 
-- name: Jeff Winger
-  description: There already was a rating system in place, it was called 'Cool People Get More,' and it was working fine.
-  title: Law Professor - Greendale
+- name: Manuela Herrera Muñoz
+  description: Maravillosa atención.
+  picture: lucia-corbacho.jpg
+  title: 
+
+- name: Fátima Díaz Pérez
+  description: La mejor clinica de Mérida, para nuestras mascotas, profesionales hasta lo más alto, no hay estrellas suficientes para calificarlos.
+  picture: fatima-diaz.png
+  title: 
+
+- name: Manuel Durán Llagas
+  description: Clínica de confianza para las mascotas, estupendo trato en lo personal y en lo profesional.
+  picture: manuel-duran.png
+  title: 
+
+- name: Rosa Ingelmo
+  description: Profesionales estupendos y muy comprometidos con su profesión. Limpieza y muy buena atención.
+  picture: rosa-ingelmo.jpg
+  title: 
+
+- name: Lucia Corbacho Silva
+  description: Fantástico y te tratan como de família
+  picture: lucia-corbacho.jpg
+  title: 

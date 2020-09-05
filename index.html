@@ -152,16 +152,23 @@ layout: default
 End Our team -->
 
 <!-- Start Testimonials -->
-<div id="testimonials" class="testimonials parallax" style="background-image: url('{{ site.baseurl }}/img/{{ site.testimonials.testimonials_img }}');">
+<div id="testimonials" class="testimonials parallax" style="background-color: lightgrey ;">
     <div class="overlay-container">
         <div class="overlay"></div>
         <div class="container-fluid">
             <div id="testimonial-carousel">
                 {% for testimonial in site.data.testimonials %}
                     <div class="testimonial-item">
-                        <svg class="icon icon-quote-left"><use xlink:href="#icon-quote-left"></use></svg>
+                        <img src="{{ site.baseurl }}/img/testimonials/{{ testimonial.picture }}" />
                         <blockquote>
                             <p>{{ testimonial.description }}</p>
+                            <p>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#FFDF00" width="36" height="36" viewBox="0 0 24 24"><path d="M12 .288l2.833 8.718h9.167l-7.417 5.389 2.833 8.718-7.416-5.388-7.417 5.388 2.833-8.718-7.416-5.389h9.167z"/></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#FFDF00"  width="36" height="36" viewBox="0 0 24 24"><path d="M12 .288l2.833 8.718h9.167l-7.417 5.389 2.833 8.718-7.416-5.388-7.417 5.388 2.833-8.718-7.416-5.389h9.167z"/></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#FFDF00"  width="36" height="36" viewBox="0 0 24 24"><path d="M12 .288l2.833 8.718h9.167l-7.417 5.389 2.833 8.718-7.416-5.388-7.417 5.388 2.833-8.718-7.416-5.389h9.167z"/></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#FFDF00" width="36" height="36" viewBox="0 0 24 24"><path d="M12 .288l2.833 8.718h9.167l-7.417 5.389 2.833 8.718-7.416-5.388-7.417 5.388 2.833-8.718-7.416-5.389h9.167z"/></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#FFDF00"  width="36" height="36" viewBox="0 0 24 24"><path d="M12 .288l2.833 8.718h9.167l-7.417 5.389 2.833 8.718-7.416-5.388-7.417 5.388 2.833-8.718-7.416-5.389h9.167z"/></svg>
+                            </p>
                             <footer>
                                 {{ testimonial.name }}
                                 <small>{{ testimonial.title }}</small>
