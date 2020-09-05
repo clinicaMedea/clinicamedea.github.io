@@ -141,7 +141,7 @@ End Our team -->
             <div id="testimonial-carousel">
                 {% for testimonial in site.data.testimonials %}
                     <div class="testimonial-item">
-                        <img src="{{ site.baseurl }}/img/testimonials/{{ testimonial.picture }}" />
+                        <img src="{{ site.baseurl }}/img/testimonials/{{ testimonial.picture }}" alt="Opión sobre veterinario en merida de {{ testimonial.name }}"/>
                         <blockquote>
                             <p>{{ testimonial.description }}</p>
                             <p>
@@ -169,7 +169,7 @@ End Our team -->
         
     <h2 class="section-title">Nuestras instalaciones</h2>
 
-    {% for imagesnumber in (1..45) %}
+    {% for imagesnumber in (1..42) %}
         <a href="{{ site.baseurl }}/img/gallery/large/Medea-{{ imagesnumber }}.jpg" class="gallery-item expandable-box image-link">
             <div class="expandable-box-top">
                 <picture>
