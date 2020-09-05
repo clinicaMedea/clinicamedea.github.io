@@ -141,7 +141,12 @@ End Our team -->
             <div id="testimonial-carousel">
                 {% for testimonial in site.data.testimonials %}
                     <div class="testimonial-item">
-                        <img src="{{ site.baseurl }}/img/testimonials/{{ testimonial.picture }}" alt="Opión sobre veterinario en merida de {{ testimonial.name }}"/>
+                        <picture>
+                            <source type="image/webp" srcset="{{ site.baseurl }}/img/testimonials/{{ testimonial.picture_op }}">
+                            <source type="image/jpeg" srcset="{{ site.baseurl }}/img/testimonials/{{ testimonial.picture }}">
+                            <img src="{{ site.baseurl }}/img/testimonials/{{ testimonial.picture }}" alt="Opión sobre veterinario en merida de {{ testimonial.name }}"/>
+                          </picture>
+                    
                         <blockquote>
                             <p>{{ testimonial.description }}</p>
                             <p>
@@ -175,7 +180,7 @@ End Our team -->
                 <picture>
                     <source type="image/webp" srcset="{{ site.baseurl }}/img/gallery/thumb/Medea-{{ imagesnumber }}.webp">
                     <source type="image/jpeg" srcset="{{ site.baseurl }}/img/gallery/thumb/Medea-{{ imagesnumber }}.jpg">
-                        <img src="{{ site.baseurl }}/img/gallery/thumb/Medea-{{ imagesnumber }}.jpg" alt="Veterinario en Mérida prestando servicios veterinarios">
+                    <img src="{{ site.baseurl }}/img/gallery/thumb/Medea-{{ imagesnumber }}.jpg" alt="Veterinario en Mérida prestando servicios veterinarios">
                   </picture>
                 
             </div>
