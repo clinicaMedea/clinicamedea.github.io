@@ -77,7 +77,7 @@ module.exports = function (grunt) {
 
         watch: {
             stylesheets: {
-                files: ['_scss/**/*.scss'],
+                files: ['_scss/*.scss'],
                 tasks: ['sass', 'autoprefixer', 'shell:jekyllBuild']
             },
             scripts: {
