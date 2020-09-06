@@ -17,8 +17,18 @@
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 
     <!-- Google Fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Nunito:400,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic' rel='stylesheet' type='text/css'>
+    <script type="text/javascript">
+        WebFontConfig = {
+          google: { families: [ 'Nunito:400,700|Open+Sans:400,400italic,600,600italic' ] }
+        };
+        (function() {
+          var wf = document.createElement('script');
+          wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+          wf.type = 'text/javascript';
+          wf.async = 'true';
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(wf, s);
+        })(); </script>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}">
