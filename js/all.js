@@ -4192,7 +4192,6 @@ MagnificPopup.prototype = {
 
 		// this triggers recalculation of layout, so we get it once to not to trigger twice
 		var windowHeight = mfp.wH = _window.height();
-
 		
 		var windowStyles = {};
 
