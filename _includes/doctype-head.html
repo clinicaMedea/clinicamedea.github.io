@@ -17,19 +17,30 @@
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 
     <!-- Google Fonts -->
-    <script type="text/javascript">
-        WebFontConfig = {
-          google: { families: [ 'Nunito:400,700|Open+Sans:400,400italic,600,600italic' ] }
-        };
-        (function() {
-          var wf = document.createElement('script');
-          wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-          wf.type = 'text/javascript';
-          wf.async = 'true';
-          var s = document.getElementsByTagName('script')[0];
-          s.parentNode.insertBefore(wf, s);
-        })(); </script>
-
+        <link
+        rel="preload"
+        href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic&display=swap"
+        as="style"
+        onload="this.onload=null;this.rel='stylesheet'"
+        />
+        <link
+        rel="preload"
+        href="https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap"
+        as="style"
+        onload="this.onload=null;this.rel='stylesheet'"
+        />
+        <noscript>
+        <link
+            href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic&display=swap"
+            rel="stylesheet"
+            type="text/css"
+        />
+        <link
+        href="https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap"
+        rel="stylesheet"
+        type="text/css"
+    />
+        </noscript>
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}">
 </head>
