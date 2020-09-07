@@ -32,6 +32,7 @@ layout: default
         <h3>Contacto</h3>
         <ul>
             {% if site.contact.phone %}<li><strong>Teléfono:</strong> <a href="tel:{{ site.contact.phone }}" style="color: white;"> {{ site.contact.phone }}</a></li>{% endif %}
+            {% if site.contact.emergency %}<li><strong>Móvil:</strong> <a href="tel:{{ site.contact.emergency }}" style="color: white;"> {{ site.contact.emergency }}</a></li>{% endif %}
             {% if site.contact.email %}<li><strong>Email:</strong> {{ site.contact.email }}</li>{% endif %}
         </ul>
     </div>
@@ -39,7 +40,7 @@ layout: default
         <svg class="icon icon-clock-o"><use xlink:href="#icon-clock-o"></use></svg>
         <h3>Horario</h3>
         <P>
-            Hemos mejorado nuestro servicio ofreciendo un horario contínuo y con Cita previa. Teléfono para solicitar cita 924 371 865.
+            Hemos mejorado nuestro servicio ofreciendo un horario contínuo y con Cita previa. Teléfono para solicitar cita <a href="tel:924 371 865" style="color: white;">924 371 865</a>.
         </P>
         <table style="margin-bottom: 40px;">
             <tbody>
